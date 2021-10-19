@@ -1,0 +1,56 @@
+{
+  // The steam workshop id of this mod.
+  workshopId: null,
+
+  // The name of the mod displayed in the 'mods' screen.
+  name: "Dev Helpers",
+
+  // The version of the mod (should not be manually set).
+  version: "development",
+
+  // The type of mod (client, server-only, server-client)
+  type: "server-client",
+
+  // Description of the mod.
+  description: {
+    // What the mod does.
+    features: [
+      "Auto super god mode.",
+    ],
+
+    // What the mod doesn't do.
+    antifeatures: [],
+
+    // Notes
+    notes: {
+      // Is a building block mod?
+      buildingBlock: false,
+
+      // Other notes.
+      other: []
+    }
+  },
+
+  // What the mod is compatible with.
+  compatible: {
+    vanilla: false,
+    reign_of_giants: false,
+    shipwrecked: false,
+    together: true,
+  },
+
+  // Lets people search for servers with this mod by these tags.
+  tags: [],
+
+  // Determins the order in which this mod is loaded.
+  priority: 2147483647,
+
+  // Link the mod's forum.
+  forumthread: "",
+
+  // Mod dependencies.
+  dependencies: [],
+
+  //  Mod config options.
+  configurationOptions: [],
+}
