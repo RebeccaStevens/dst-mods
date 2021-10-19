@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "packages/*/dist": true,
+  },
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "packages/*/dist": true,
+  },
+  "[lua]": {
+    "editor.defaultFormatter": "tangzx.emmylua",
+    "editor.formatOnSave": true,
+  },
+}

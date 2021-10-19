@@ -1,0 +1,16 @@
+# Dist files
+packages/*/dist
+
+# Temp files
+tmp
+
+# .env files are developer specific
+.env
+emmy.config.json
+
+# Compiled files
+*.tex
+*.zip
+
+# deps
+node_modules/

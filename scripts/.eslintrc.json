@@ -1,0 +1,38 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "functional",
+    "import",
+    "jsdoc",
+    "prettier"
+  ],
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "@rebeccastevens/eslint-config/modern",
+    "@rebeccastevens/eslint-config/typescript",
+    "@rebeccastevens/eslint-config/common-overrides",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 10,
+    "project": [
+      "./scripts/tsconfig.json"
+    ],
+    "sourceType": "module"
+  },
+  "rules": {
+    "functional/no-conditional-statement": "off",
+    "functional/no-loop-statement": "off",
+    "functional/no-throw-statement": "off",
+    "functional/no-try-statement": "off",
+    "functional/prefer-readonly-type": "off",
+    "promise/avoid-new": "off",
+    "sonarjs/no-nested-template-literals": "off"
+  }
+}
